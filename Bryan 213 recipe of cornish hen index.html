@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Recipe of food">
+        <meta name="keyword" content="Foodista">
+        <meta name="author" content="Bryan">
+        <meta name="viewpoint" content="width=device-width. initial-scale=1.0">
+        <title>Lab: Creating a Structured Webpage </title>
+        <style>
+            main{
+                background-color: beige;
+                width: 90%;
+                margin-left:auto ;
+                margin-right:auto;
+                columns: 100px 2;
+            }
+        </style>
+        <style>
+            table,table tr th, table tr td { border:1px solid #0094ff; }
+            table { width: 600px; min-height: 25px; line-height: 25px; text-align: left; border-collapse: collapse;}   
+        </style>
+    </head>
+    <!--comment start to write normal main code-->
+    <body>
+    <!--set up picture and explanation-->
+        <h1>Today's Recipe</h1>
+        <h2 style="text-align: center;">Cornish game hen with whiskey and cream sauce</h2>
+
+        <p style="text-align: center;">
+        <img src="C:/htmlhomework/cornish_hen.JPG" alt="cornishhen01" width="600">
+        </p>
+        <p style="text-align: center;">Introduction: Cornish game hen with whiskey and cream sauce is the perfect last-minute get-together dinner meal.It will make your lunch or dinner more delicous.</p>
+    <!--use talbe to write the second part of ingredients-->
+        <h3>The ingredients and amounts</h3>
+        <table>
+
+            <thead>
+                <tr>
+                <th>The ingredients</th>
+                <th>amounts</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td> large Cornish hen</td>
+                    <td> 2</td>
+                </tr>
+                <tr>
+                    <td> unsalted butter </td>
+                    <td> 2 tablespoons</td>
+                </tr>
+                <tr>
+                    <td> shallots</td>
+                    <td> 2 mediun finely sliced</td>
+                </tr>
+                <tr>
+                    <td> whiskey</td>
+                    <td> 1/4 to 1/2 cup</td>
+                </tr>
+                <tr>
+                    <td> Worcestershire sauce</td>
+                    <td> 1 teaspoon</td>
+                </tr>
+                <tr>
+                    <td> Dijon mustard</td>
+                    <td> 1 tablespoon</td>
+                </tr>
+                <tr>
+                    <td> heavy cream</td>
+                    <td> 1/2 cup</td>
+                </tr>
+                <tr>
+                    <td> fresh lemon juice</td>
+                    <td> 2 teaspoons</td>
+                </tr>
+                <tr>
+                    <td> Provence</td>
+                    <td> a big pinch of herbs</td>
+                </tr>
+            </tbody>
+        </table> 
+    <!--table is better than below code if we see effect      
+        <h2>The ingredients and amounts</h2>
+        <ul>
+            <li>2 large Cornish hen</li>
+            <li>2 tablespoons unsalted butter</li>
+            <li>2 mediun finely sliced shallots</li>
+            <li>1/4 to 1/2 cup whiskey</li>
+            <li>1 teaspoon Worcestershire sauce</li>
+            <li>1 tablespoon Dijon mustard</li>
+            <li>1/2 cup heavy cream</li>
+            <li>2 teaspoons fresh lemon juice</li>
+            <li>a big pinch of herbs of Provence</li>
+        </ul>--> 
+    <!--write the 3rd part of preparation instructions-->
+        <h3>The preparation instructions</h3>
+        <h5>1 FOR THE HEN</h5>
+        <P>Preheat the oven at 450º and position the rack in the middle of the oven.</p>
+        <p>Place a hen, breast side down on a cutting board. Remove the backbone by cutting along both sides with shears or a large sharp knife.</p>
+        <p>Flip the hen and flatten it by pressing down on the breastbone with your palm. Split the hen in two along the breastbone. Repeat with the remaining hen. </p>
+        <p>Place on a heavy roasting pan and spread on each half, ¼ of a teaspoon of butter, Herbs de Provence, salt and pepper, and a drop of olive oil. Place in the hot oven and cook for 30 to 45 minutes. Poke the hen while cooking to release any juices.</p>
+        <p>When done, remove from the oven, place the hen in a dish and cover with aluminum foil and let rest.</p>
+        <h5>2 FOR THE WHISKEY AND CREAM SAUCE</h5>
+        <p>Place the unwashed cooking pan over the stove and add the remaining 2 tablespoons of butter and let it melt. Lower the heat and add the whiskey, very slowly. With a wooden spoon scrape up any bit on the pan.</p>
+        <P>Add the shallots and cook until tender, 1 minute. Add the Worcestershire sauce, mustard and raise the heat to medium-high. Bring to a boil stirring constantly</P>
+        <P>Add the heavy cream and the lemon juice. Taste the sauce and season with salt and pepper.</P>
+        <P>Serve hot over the Cornish hen.</P>
+<!--write 4th parts of connection with the readers-->
+        <h2>Contact us:</h2>
+
+       <fieldset>
+        <legend>If you are insterested in this recipe or have a question to ask us</legend>
+       
+        <form>
+            <!--how to draw the rectangle-->
+            <p>First/last name:<input type="text" name="name"></p>
+            <p>Email address:  <input type ="text" name="subject"></p>
+            <p>Email subject:  <input type ="text" name="subject"></p>
+            <p>Write your message here: <textarea name="textfield" cols="35"> </textarea> </p>
+            <!--how to make the text rectangle larger-->
+        </form>
+        </fieldset>
+        <footer><p>© 2022,Southern Alberta Institute of Technology</p></footer>
+    </body>
+</html>
